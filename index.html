@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Frontend_Page_Creation</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="Container">
+    <header class="header">
+      <div className="" data-testid="slackUserName">
+        <h1>Insha Firdaus</h1>
+      </div>
+      <div>
+        <img src="https://ca.slack-edge.com/T05FFAA91JP-U05RFNEPCMT-ga89bbd6e2a5-512" alt="Insha Firdaus"
+          class="imageStyle" data-testid="slackDisplayImage" width="100">
+      </div>
+    </header>
+    <nav>
+      <ul class="mainContainerul">
+        <li class="listItem" data-testid="currentDayOfTheWeek">
+          <label>Day:</label>
+          <span id="CurrentDay"></span>
+        </li>
+        <li class="listItem" data-testid="currentUTCTime">
+          <label>Current UTC Time:</label>
+          <span id="UTCTime"></span>
+        </li>
+        <li class="listItem" data-testid="myTrack"">
+          <label>Track:</label>
+          <span>Frontend</span>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <script src=" script.js">
+  </script>
+</body>
+
+</html>

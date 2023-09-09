@@ -1,0 +1,39 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.Container {
+  color: #000000;
+  background-color: #eaa9b3;
+  border: 2px solid;
+  border-radius: 2px;
+  padding: 2rem;
+  height: 12rem;
+  width: 28rem;
+}
+
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.mainContainerul {
+  list-style: none;
+  padding: 0;
+}
+
+.listItem {
+  font-size: large;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.imageStyle {
+  border-radius: 2px;
+}
+
+#CurrentDay {
+  text-transform: capitalize;
+}
